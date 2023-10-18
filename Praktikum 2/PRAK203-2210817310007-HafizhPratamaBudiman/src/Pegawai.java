@@ -1,6 +1,8 @@
 public class Pegawai {
     public String nama;
-    public char asal;
+    // Attribut asal diganti dengan tipe data String agar sesuai dengan methodnya
+    // public char asal
+    public String asal;
     public String jabatan;
     public int umur;
 
@@ -12,7 +14,9 @@ public class Pegawai {
         return asal;
     }
 
-    public void setJabatan() {
+    // Agar line this.jabatan tidak mengalami error, harus ditambahkan argumen yang sesuai dengan tipe data parameternya
+    // public void setJabatan()
+    public void setJabatan(String j) {
         this.jabatan = j;
     }
 }
