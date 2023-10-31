@@ -16,7 +16,7 @@ public class Main {
         for (int x=0; x<diceList.size(); x++) {
             Dice Dadu = diceList.get(x);
             int Value = Dadu.getValue();
-            System.out.println("Dad ke-" + (x+1) + " bernilai " + Value);
+            System.out.println("Dadu ke-" + (x+1) + " bernilai " + Value);
             totalValue += Value;
         }
         System.out.println("Total nilai dadu keseluruhan " + totalValue);
