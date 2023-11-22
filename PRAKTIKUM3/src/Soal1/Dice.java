@@ -10,4 +10,3 @@ public class Dice {
         return Value;
     }
 }
-
