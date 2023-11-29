@@ -1,5 +1,5 @@
 package soal1;
-public class Cylinder extends Shape{
+public class Cylinder extends Shape {
     private double radius, height;
     public Cylinder(double r, double h) {
         super("Cylinder");
